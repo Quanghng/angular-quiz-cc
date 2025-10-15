@@ -3,177 +3,177 @@
     {
       "id": "1",
       "questionLabel": "What is a component in Angular?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "2",
       "questionLabel": "Explain the purpose of the NgModule in Angular.",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "3",
       "questionLabel": "How do you create a new Angular application?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "4",
       "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "5",
       "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "6",
       "questionLabel": "What is event binding in Angular, and how is it implemented?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "7",
       "questionLabel": "What is Angular CLI, and how do you use it to generate components?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "8",
       "questionLabel": "What is a directive in Angular? Can you name some built-in directives?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "9",
       "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application.",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "10",
       "questionLabel": "What is dependency injection in Angular, and why is it important?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "11",
       "questionLabel": "How do you communicate between parent and child components in Angular?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "12",
       "questionLabel": "What is a service in Angular, and when should you use it?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "13",
       "questionLabel": "What is the purpose of the ngFor directive in Angular?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "14",
       "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application.",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "15",
       "questionLabel": "What is Angular CLI's ng serve command used for?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "16",
       "questionLabel": "What is Angular's two-way data binding, and how does it work?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "17",
       "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "18",
       "questionLabel": "How can you handle HTTP requests in Angular?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "19",
       "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "20",
       "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial.",
-      "category": "angular"
+      "categorieId": 1
     },
     {
       "id": "21",
       "questionLabel": "What is the purpose of the `let` keyword in JavaScript?",
-      "category": "javascript"
+      "categorieId": 2
     },
     {
       "id": "22",
       "questionLabel": "What does the `===` operator do in JavaScript?",
-      "category": "javascript"
+      "categorieId": 2
     },
     {
       "id": "23",
       "questionLabel": "How do you declare a function in JavaScript?",
-      "category": "javascript"
+      "categorieId": 2
     },
     {
       "id": "24",
       "questionLabel": "What is a callback function in JavaScript?",
-      "category": "javascript"
+      "categorieId": 2
     },
     {
       "id": "25",
       "questionLabel": "What is the difference between `null` and `undefined` in JavaScript?",
-      "category": "javascript"
+      "categorieId": 2
     },
     {
       "id": "26",
       "questionLabel": "What does the acronym HTML stand for?",
-      "category": "html"
+      "categorieId": 3
     },
     {
       "id": "27",
       "questionLabel": "Which HTML tag is used to define an unordered list?",
-      "category": "html"
+      "categorieId": 3
     },
     {
       "id": "28",
       "questionLabel": "What is the purpose of the `<!DOCTYPE html>` declaration?",
-      "category": "html"
+      "categorieId": 3
     },
     {
       "id": "29",
       "questionLabel": "Which attribute is used to provide an alternative text for an image, if the image cannot be displayed?",
-      "category": "html"
+      "categorieId": 3
     },
     {
       "id": "30",
       "questionLabel": "What is the correct HTML element for the largest heading?",
-      "category": "html"
+      "categorieId": 3
     },
     {
       "id": "31",
       "questionLabel": "What does CSS stand for?",
-      "category": "css"
+      "categorieId": 4
     },
     {
       "id": "32",
       "questionLabel": "Which property is used to change the background color of an element?",
-      "category": "css"
+      "categorieId": 4
     },
     {
       "id": "33",
       "questionLabel": "How do you select an element with the id 'header' in CSS?",
-      "category": "css"
+      "categorieId": 4
     },
     {
       "id": "34",
       "questionLabel": "What is the purpose of the `z-index` property in CSS?",
-      "category": "css"
+      "categorieId": 4
     },
     {
       "id": "35",
       "questionLabel": "Which CSS property is used to change the text color of an element?",
-      "category": "css"
+      "categorieId": 4
     }
   ],
   "answers": [
@@ -1033,6 +1033,11 @@
       "id": "e50c",
       "username": "test",
       "password": "asdqwe"
+    },
+    {
+      "id": "3999",
+      "username": "test",
+      "password": "qweqwe"
     }
   ]
 }
