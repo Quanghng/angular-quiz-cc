@@ -1,17 +1,21 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { ActivatedRoute } from '@angular/router';
+import { map, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class QuizService {
   quizContent: any[] = [];
-  playerAnswers: {questionId: number; answer: string}[] = [];
+  playerAnswers: { questionId: number; answer: string }[] = [];
   score = 0;
   isQuizFinished = false;
   playerName: string = '';
+  categorie: number = 0;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private route: ActivatedRoute) { }
+
 
   checkAnswers() {
     this.score = 0;
@@ -35,17 +39,18 @@ export class QuizService {
       isAnswered.answer = answer;
       return;
     }
-    this.playerAnswers.push({questionId, answer});
+    this.playerAnswers.push({ questionId, answer });
   }
 
+
   getQuizContent() {
-    this.http.get('http://localhost:3000/questions').subscribe((questions: any) => {
+    this.http.get(`http://localhost:3000/questions?categorieId=${this.categorie}`).subscribe((questions: any) => {
       for (const question of questions) {
         this.http.get(`http://localhost:3000/answers?questionId=${question.id}`).subscribe((answers: any) => {
           this.quizContent.push({
-              id: question.id,
-              question: question.questionLabel,
-              answers
+            id: question.id,
+            question: question.questionLabel,
+            answers
           });
         });
       }

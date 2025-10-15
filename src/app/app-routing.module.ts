@@ -5,19 +5,20 @@ import { QuizComponent } from "./quiz/quiz.component";
 import { ResultComponent } from "./quiz/result/result.component";
 import { LoginComponent } from "./auth/login/login.component";
 import { RegisterComponent } from "./auth/register/register.component";
+import { CategorieComponent } from './categorie/categorie.component';
 
 const routes: Routes = [
   {
     path: '',
-    component : HomeComponent
+    component: HomeComponent
   },
   {
-    path: 'quiz/:playerName',
-    component : QuizComponent
+    path: 'quiz/:categorie',
+    component: QuizComponent
   },
   {
     path: 'result',
-    component : ResultComponent
+    component: ResultComponent
   },
   {
     path: 'login',
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent
+  },
+  {
+    path: 'categories',
+    component: CategorieComponent
   }
 ];
 
