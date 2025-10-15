@@ -31,7 +31,10 @@ export class CategorieComponent {
     this.router.navigate(['/quiz', this.categorie]);
   }
 
-  test() { }
+  clearSearch() {
+    this.input = ''; // Reset the input field
+    this.filteredCategories = this.categories; // Reset the filtered categories
+  }
 }
 
 
