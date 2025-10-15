@@ -1,486 +1,1021 @@
 {
   "questions": [
     {
-      "id": 1,
-      "questionLabel": "What is a component in Angular?"
+      "id": "1",
+      "questionLabel": "What is a component in Angular?",
+      "category": "angular"
     },
     {
-      "id": 2,
-      "questionLabel": "Explain the purpose of the NgModule in Angular."
+      "id": "2",
+      "questionLabel": "Explain the purpose of the NgModule in Angular.",
+      "category": "angular"
     },
     {
-      "id": 3,
-      "questionLabel": "How do you create a new Angular application?"
+      "id": "3",
+      "questionLabel": "How do you create a new Angular application?",
+      "category": "angular"
     },
     {
-      "id": 4,
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+      "id": "4",
+      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
+      "category": "angular"
     },
     {
-      "id": 5,
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+      "id": "5",
+      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
+      "category": "angular"
     },
     {
-      "id": 6,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "id": "6",
+      "questionLabel": "What is event binding in Angular, and how is it implemented?",
+      "category": "angular"
     },
     {
-      "id": 7,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "id": "7",
+      "questionLabel": "What is Angular CLI, and how do you use it to generate components?",
+      "category": "angular"
     },
     {
-      "id": 8,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "id": "8",
+      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?",
+      "category": "angular"
     },
     {
-      "id": 9,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "id": "9",
+      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application.",
+      "category": "angular"
     },
     {
-      "id": 10,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+      "id": "10",
+      "questionLabel": "What is dependency injection in Angular, and why is it important?",
+      "category": "angular"
     },
     {
-      "id": 11,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
+      "id": "11",
+      "questionLabel": "How do you communicate between parent and child components in Angular?",
+      "category": "angular"
     },
     {
-      "id": 12,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
+      "id": "12",
+      "questionLabel": "What is a service in Angular, and when should you use it?",
+      "category": "angular"
     },
     {
-      "id": 13,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
+      "id": "13",
+      "questionLabel": "What is the purpose of the ngFor directive in Angular?",
+      "category": "angular"
     },
     {
-      "id": 14,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
+      "id": "14",
+      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application.",
+      "category": "angular"
     },
     {
-      "id": 15,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
+      "id": "15",
+      "questionLabel": "What is Angular CLI's ng serve command used for?",
+      "category": "angular"
     },
     {
-      "id": 16,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
+      "id": "16",
+      "questionLabel": "What is Angular's two-way data binding, and how does it work?",
+      "category": "angular"
     },
     {
-      "id": 17,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
+      "id": "17",
+      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?",
+      "category": "angular"
     },
     {
-      "id": 18,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
+      "id": "18",
+      "questionLabel": "How can you handle HTTP requests in Angular?",
+      "category": "angular"
     },
     {
-      "id": 19,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
+      "id": "19",
+      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?",
+      "category": "angular"
     },
     {
-      "id": 20,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+      "id": "20",
+      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial.",
+      "category": "angular"
+    },
+    {
+      "id": "21",
+      "questionLabel": "What is the purpose of the `let` keyword in JavaScript?",
+      "category": "javascript"
+    },
+    {
+      "id": "22",
+      "questionLabel": "What does the `===` operator do in JavaScript?",
+      "category": "javascript"
+    },
+    {
+      "id": "23",
+      "questionLabel": "How do you declare a function in JavaScript?",
+      "category": "javascript"
+    },
+    {
+      "id": "24",
+      "questionLabel": "What is a callback function in JavaScript?",
+      "category": "javascript"
+    },
+    {
+      "id": "25",
+      "questionLabel": "What is the difference between `null` and `undefined` in JavaScript?",
+      "category": "javascript"
+    },
+    {
+      "id": "26",
+      "questionLabel": "What does the acronym HTML stand for?",
+      "category": "html"
+    },
+    {
+      "id": "27",
+      "questionLabel": "Which HTML tag is used to define an unordered list?",
+      "category": "html"
+    },
+    {
+      "id": "28",
+      "questionLabel": "What is the purpose of the `<!DOCTYPE html>` declaration?",
+      "category": "html"
+    },
+    {
+      "id": "29",
+      "questionLabel": "Which attribute is used to provide an alternative text for an image, if the image cannot be displayed?",
+      "category": "html"
+    },
+    {
+      "id": "30",
+      "questionLabel": "What is the correct HTML element for the largest heading?",
+      "category": "html"
+    },
+    {
+      "id": "31",
+      "questionLabel": "What does CSS stand for?",
+      "category": "css"
+    },
+    {
+      "id": "32",
+      "questionLabel": "Which property is used to change the background color of an element?",
+      "category": "css"
+    },
+    {
+      "id": "33",
+      "questionLabel": "How do you select an element with the id 'header' in CSS?",
+      "category": "css"
+    },
+    {
+      "id": "34",
+      "questionLabel": "What is the purpose of the `z-index` property in CSS?",
+      "category": "css"
+    },
+    {
+      "id": "35",
+      "questionLabel": "Which CSS property is used to change the text color of an element?",
+      "category": "css"
     }
   ],
   "answers": [
     {
       "questionId": 1,
       "answerLabel": "A reusable building block for the user interface",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "31cc"
     },
     {
       "questionId": 1,
       "answerLabel": "A style in Angular",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "7014"
     },
     {
       "questionId": 1,
       "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "af0e"
     },
     {
       "questionId": 1,
       "answerLabel": "A routing configuration",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "9308"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "7c4e"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "df7d"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "28fa"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b287"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "85c1"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "9f20"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using pure JavaScript.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5423"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using Python.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "6d2d"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "195a"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is used for creating components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0037"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a routing feature.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5dbd"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is only available for services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "83ec"
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "aa44"
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "642a"
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "eaf0"
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "7644"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "9738"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining component styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "35b7"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "a7be"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "cac9"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "523e"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a component in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "76e3"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3865"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "8b48"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5eaa"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a component.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "559a"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a service.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "80ac"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b15d"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is a library for navigating between views and components.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "fc40"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "40ae"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "131a"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2986"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5da3"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "aaf9"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f1d5"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "7158"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "7e0c"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular is not possible.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0bd2"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "cb13"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b107"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5388"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of component.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b63b"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of directive.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2e19"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "ae08"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "7036"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "ba79"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b4f3"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "8ce4"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "2e8e"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f592"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for routing configuration.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "a75c"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "d9f2"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "89be"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "9de2"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "bbb0"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "7190"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5280"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding is used for routing configuration.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3ee3"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "85a7"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "9f57"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5e0a"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "a55e"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f652"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c3c5"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "2dcb"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c806"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3951"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "8350"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5ff8"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "e7cc"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "a593"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "6f9b"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "e5a4"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "d25a"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c2cb"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "56c9"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "To declare a block-scoped local variable, optionally initializing it to a value.",
+      "isCorrect": true,
+      "id": "js01"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "To declare a globally scoped variable.",
+      "isCorrect": false,
+      "id": "js02"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "To declare a constant variable.",
+      "isCorrect": false,
+      "id": "js03"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "To create a new function.",
+      "isCorrect": false,
+      "id": "js04"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It performs a strict equality comparison, checking for both value and type equality.",
+      "isCorrect": true,
+      "id": "js05"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It assigns a value to a variable.",
+      "isCorrect": false,
+      "id": "js06"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It performs a loose equality comparison, with type coercion.",
+      "isCorrect": false,
+      "id": "js07"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It is used for concatenating strings.",
+      "isCorrect": false,
+      "id": "js08"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Using the `function` keyword, followed by the function name, parentheses, and curly braces.",
+      "isCorrect": true,
+      "id": "js09"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Using the `def` keyword.",
+      "isCorrect": false,
+      "id": "js10"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Using the `fun` keyword.",
+      "isCorrect": false,
+      "id": "js11"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Using the `create function` syntax.",
+      "isCorrect": false,
+      "id": "js12"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "A function passed into another function as an argument, to be executed later.",
+      "isCorrect": true,
+      "id": "js13"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "A function that calls itself.",
+      "isCorrect": false,
+      "id": "js14"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "A built-in JavaScript function.",
+      "isCorrect": false,
+      "id": "js15"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "A function that is immediately invoked.",
+      "isCorrect": false,
+      "id": "js16"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "`null` is an assignment value representing no value, while `undefined` means a variable has been declared but not assigned a value.",
+      "isCorrect": true,
+      "id": "js17"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "They are identical and can be used interchangeably.",
+      "isCorrect": false,
+      "id": "js18"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "`null` is a number, while `undefined` is a string.",
+      "isCorrect": false,
+      "id": "js19"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "`undefined` is an assignment value, while `null` means a variable has been declared but not assigned.",
+      "isCorrect": false,
+      "id": "js20"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "HyperText Markup Language",
+      "isCorrect": true,
+      "id": "html01"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "HighTech Machine Learning",
+      "isCorrect": false,
+      "id": "html02"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "Hyperlink and Text Markup Language",
+      "isCorrect": false,
+      "id": "html03"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "Home Tool Markup Language",
+      "isCorrect": false,
+      "id": "html04"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "<ul>",
+      "isCorrect": true,
+      "id": "html05"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "<ol>",
+      "isCorrect": false,
+      "id": "html06"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "<li>",
+      "isCorrect": false,
+      "id": "html07"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "<list>",
+      "isCorrect": false,
+      "id": "html08"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It informs the browser about the version of HTML being used.",
+      "isCorrect": true,
+      "id": "html09"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It creates a new HTML document.",
+      "isCorrect": false,
+      "id": "html10"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It is a comment and has no effect.",
+      "isCorrect": false,
+      "id": "html11"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It links the document to an external stylesheet.",
+      "isCorrect": false,
+      "id": "html12"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "alt",
+      "isCorrect": true,
+      "id": "html13"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "src",
+      "isCorrect": false,
+      "id": "html14"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "title",
+      "isCorrect": false,
+      "id": "html15"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "href",
+      "isCorrect": false,
+      "id": "html16"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "<h1>",
+      "isCorrect": true,
+      "id": "html17"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "<h6>",
+      "isCorrect": false,
+      "id": "html18"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "<heading>",
+      "isCorrect": false,
+      "id": "html19"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "<p>",
+      "isCorrect": false,
+      "id": "html20"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Cascading Style Sheets",
+      "isCorrect": true,
+      "id": "css01"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Creative Style Sheets",
+      "isCorrect": false,
+      "id": "css02"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Computer Style Sheets",
+      "isCorrect": false,
+      "id": "css03"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Colorful Style Sheets",
+      "isCorrect": false,
+      "id": "css04"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "background-color",
+      "isCorrect": true,
+      "id": "css05"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "color",
+      "isCorrect": false,
+      "id": "css06"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "bgcolor",
+      "isCorrect": false,
+      "id": "css07"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "background",
+      "isCorrect": false,
+      "id": "css08"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "#header",
+      "isCorrect": true,
+      "id": "css09"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": ".header",
+      "isCorrect": false,
+      "id": "css10"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "header",
+      "isCorrect": false,
+      "id": "css11"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "*header",
+      "isCorrect": false,
+      "id": "css12"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "To control the stacking order of positioned elements.",
+      "isCorrect": true,
+      "id": "css13"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "To set the zoom level of an element.",
+      "isCorrect": false,
+      "id": "css14"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "To change the opacity of an element.",
+      "isCorrect": false,
+      "id": "css15"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "To align text vertically.",
+      "isCorrect": false,
+      "id": "css16"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "color",
+      "isCorrect": true,
+      "id": "css17"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "text-color",
+      "isCorrect": false,
+      "id": "css18"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "font-color",
+      "isCorrect": false,
+      "id": "css19"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "text-style",
+      "isCorrect": false,
+      "id": "css20"
     }
   ],
   "users": [
@@ -493,6 +1028,11 @@
       "id": "b99e",
       "username": "toto",
       "password": "toto"
+    },
+    {
+      "id": "e50c",
+      "username": "test",
+      "password": "asdqwe"
     }
   ]
 }
