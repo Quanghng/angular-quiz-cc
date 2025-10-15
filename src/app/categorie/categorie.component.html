@@ -6,6 +6,14 @@
       <label class="categorie_label" for="categorie-search">Catégories</label>
       <input type="text" id="name" name="name" placeholder="Recherchez une catégorie" [(ngModel)]="input" 
         (ngModelChange)="filterCategories()" >
+                  <button 
+          *ngIf="input" 
+          type="button" 
+          class="categorie_clear-button" 
+          (click)="clearSearch()" 
+          aria-label="Effacer la recherche">
+          &times;
+        </button>
        <button type="button" class="categorie_search-button" aria-label="Rechercher">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
           <path
