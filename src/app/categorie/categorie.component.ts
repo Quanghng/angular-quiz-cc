@@ -9,27 +9,31 @@ import { Router } from '@angular/router';
 })
 export class CategorieComponent {
   categorie: number = 0;
+  input: string = '';
+  categories: { id: number, name: string }[] = [
+    { id: 1, name: 'Angular' },
+    { id: 2, name: 'Javascript' },
+    { id: 3, name: 'Html' },
+    { id: 4, name: 'Css' }
+  ];
+  filteredCategories = this.categories;
 
   constructor(private router: Router) { }
 
-  goToAngular() {
-    this.categorie = 1
+  filterCategories() {
+    this.filteredCategories = this.categories.filter(category =>
+      category.name.toLowerCase().includes(this.input.toLowerCase())
+    );
+  }
+
+  goToCategory(id: number) {
+    this.categorie = id;
     this.router.navigate(['/quiz', this.categorie]);
   }
 
-  goToJavascirpt() {
-    this.categorie = 2
-    this.router.navigate(['/quiz', this.categorie]);
-  }
-
-  goToHtml() {
-    this.categorie = 3
-    this.router.navigate(['/quiz', this.categorie]);
-  }
-
-  goToCss() {
-    this.categorie = 4
-    this.router.navigate(['/quiz', this.categorie]);
-  }
-
+  test() { }
 }
+
+
+
+
