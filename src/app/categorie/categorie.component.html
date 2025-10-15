@@ -1,1 +1,34 @@
-<p>categorie works!</p>
+<section class="categorie">
+  <div class="categorie_header">
+    <h2 class="categorie_title">Catégories</h2>
+    <p class="categorie_subtitle">Choissiez une catégorie pour voir le quiz</p>
+    <form action="" class="categorie_search">
+      <label class="categorie_label" for="categorie-search">Catégories</label>
+      <input type="text" id="name" name="name" placeholder="Recherchez une catégorie" [(ngModel)]="input" 
+        (ngModelChange)="filterCategories()" >
+                  <button 
+          *ngIf="input" 
+          type="button" 
+          class="categorie_clear-button" 
+          (click)="clearSearch()" 
+          aria-label="Effacer la recherche">
+          &times;
+        </button>
+       <button type="button" class="categorie_search-button" aria-label="Rechercher">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M10.5 3a7.5 7.5 0 015.962 12.011l3.763 3.764a.75.75 0 11-1.06 1.06l-3.764-3.763A7.5 7.5 0 1110.5 3zm0 1.5a6 6 0 100 12 6 6 0 000-12z"
+          />
+        </svg>
+      </button>
+    </form>
+  </div>
+  <div class="categorie_grid">
+    <button *ngFor="let category of filteredCategories"
+            (click)="goToCategory(category.id)"
+            class="categorie_card">
+      {{ category.name }}
+    </button>
+  </div>
+
+</section>
