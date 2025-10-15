@@ -1,29 +1,17 @@
 <section class="categorie">
-  <div class="categorie__header">
-    <h2 class="categorie__title">Catégories</h2>
-    <p class="categorie__subtitle">Choisissez une catégorie pour voir le quiz</p>
-    <form class="categorie__search" role="search">
-      <label class="sr-only" for="categorie-search">Rechercher une catégorie</label>
-      <input
-        id="categorie-search"
-        type="search"
-        name="search"
-        placeholder="Rechercher une catégorie"
-      />
-      <button type="button" class="categorie__search-button" aria-label="Rechercher">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-          <path
-            d="M10.5 3a7.5 7.5 0 015.962 12.011l3.763 3.764a.75.75 0 11-1.06 1.06l-3.764-3.763A7.5 7.5 0 1110.5 3zm0 1.5a6 6 0 100 12 6 6 0 000-12z"
-          />
-        </svg>
-      </button>
-    </form>
-  </div>
-
-  <div class="categorie__grid">
-    <button (click)="goToAngular()" class="categorie__card">Angular</button>
-    <button (click)="goToJavascirpt()" class="categorie__card">JavaScript</button>
-    <button (click)="goToHtml()" class="categorie__card">HTML</button>
-    <button (click)="goToCss()" class="categorie__card">CSS</button>
+  <h2 class="categorie_title">Catégories</h2>
+  <p class="categorie_presentation">Choissiez une catégorie pour voir le quiz</p>
+  <form action="" class="categorie_form">
+    <label for="name">Catégories</label>
+    <input type="text" id="name" name="name" placeholder="Recherchez une catégorie" [(ngModel)]="input" 
+      (ngModelChange)="filterCategories()" >
+    <button class="btn--icon" (click)="test()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+      </svg>
+    </button>
+  </form>
+  <div *ngFor="let category of filteredCategories">
+    <button (click)="goToCategory(category.id)" class="btn">{{ category.name }}</button>
   </div>
 </section>
