@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { CategorieService } from '../shared/services/categorie.service';
+import { QuizService } from '../shared/services/quiz.service';
 
 @Component({
   selector: 'app-categorie',
@@ -13,8 +14,9 @@ export class CategorieComponent {
   input: string = '';
   filteredCategories: { id: number; name: string }[] = [];
 
-  constructor(private router: Router, private categorieService: CategorieService) {
+  constructor(private router: Router, private categorieService: CategorieService, private quizService: QuizService) {
     this.filteredCategories = this.categorieService.getCategories();
+    this.quizService.resetQuiz();
   }
 
   filterCategories() {
