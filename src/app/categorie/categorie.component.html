@@ -15,7 +15,12 @@
       </button>
     </form>
   </div>
-  <div class="categorie_grid" *ngFor="let category of filteredCategories">
-    <button (click)="goToCategory(category.id)" class="categorie_card">{{ category.name }}</button>
+  <div class="categorie_grid">
+    <button *ngFor="let category of filteredCategories"
+            (click)="goToCategory(category.id)"
+            class="categorie_card">
+      {{ category.name }}
+    </button>
   </div>
+
 </section>
